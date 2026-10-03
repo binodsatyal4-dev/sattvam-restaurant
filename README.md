@@ -1,2 +1,140 @@
-# sattvam-restaurant
-SATTVAM Restaurant - 100% Vegetarian, Sattvic, No Onion, No Garlic Restaurant in Banepa
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SATTVAM Restaurant | Pure Food • Pure Mind • Pure Life</title>
+<meta name="description" content="SATTVAM Restaurant — 100% Vegetarian, Sattvic, No Onion, No Garlic. ISKCON Banepa नजिक, बनेपा, काभ्रे।">
+<style>
+:root{--green:#173d2b;--green2:#28583f;--gold:#c9a24a;--cream:#f7f1e3;--text:#26352c;--white:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans Devanagari",sans-serif;color:var(--text);background:var(--cream);line-height:1.6}
+nav{position:sticky;top:0;z-index:10;background:rgba(23,61,43,.97);padding:14px 5%;display:flex;justify-content:space-between;align-items:center;color:#fff}
+.brand{font-size:25px;font-weight:800;letter-spacing:2px}.brand span{display:block;font-size:11px;letter-spacing:1px;color:#e7d49a}
+nav a{color:#fff;text-decoration:none;margin-left:18px;font-size:14px}
+.hero{padding:82px 7%;background:linear-gradient(135deg,#173d2b 0%,#28583f 65%,#44684c 100%);color:#fff;text-align:center}
+.hero .lotus{font-size:48px;color:#e1c46b}.hero h1{font-size:56px;margin:8px 0 0;letter-spacing:5px}.hero h2{font-size:19px;font-weight:400;margin:4px 0 24px;color:#eadcae}.badges{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}.badge{border:1px solid #d9c783;border-radius:30px;padding:8px 15px;font-size:13px}
+.btn{display:inline-block;margin-top:28px;padding:13px 22px;border-radius:30px;background:var(--gold);color:#173d2b;text-decoration:none;font-weight:700}
+section{padding:55px 7%;max-width:1150px;margin:auto}.title{text-align:center;color:var(--green);font-size:32px;margin-bottom:10px}.sub{text-align:center;margin:0 auto 30px;max-width:720px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.card{background:#fff;padding:22px;border-radius:15px;box-shadow:0 5px 20px #173d2b14}.card h3{color:var(--green);margin-top:0}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}.menu-box{background:#fff;border-left:4px solid var(--gold);padding:20px;border-radius:12px}.menu-box h3{margin-top:0;color:var(--green)}.item{display:flex;justify-content:space-between;border-bottom:1px dashed #ccc;padding:8px 0;gap:10px}.price{font-weight:700;white-space:nowrap}
+.contact{background:#173d2b;color:#fff}.contact .title{color:#e7d49a}.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}.contact a{color:#fff}.info{background:#28583f;padding:20px;border-radius:12px}
+footer{text-align:center;padding:24px;background:#102c20;color:#ddd;font-size:13px}
+.note{background:#fff7d9;border:1px solid #e2c968;padding:15px;border-radius:10px;margin:20px auto;max-width:900px}
+@media(max-width:700px){nav{flex-direction:column;gap:8px}nav a{margin:0 7px;font-size:12px}.hero h1{font-size:40px}section{padding:40px 5%}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="brand">SATTVAM<span>RESTAURANT</span></div>
+  <div>
+    <a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="lotus">🪷</div>
+  <h1>SATTVAM</h1>
+  <h2>Pure Food • Pure Mind • Pure Life</h2>
+  <div class="badges">
+    <div class="badge">100% Vegetarian</div>
+    <div class="badge">Sattvic</div>
+    <div class="badge">No Onion</div>
+    <div class="badge">No Garlic</div>
+  </div>
+  <a class="btn" href="tel:9841108163">📞 Call: 9841108163</a>
+</header>
+
+<section id="about">
+  <h2 class="title">SATTVAM मा स्वागत छ</h2>
+  <p class="sub">स्वादिलो, सफा र सात्त्विक भोजनको आधुनिक अनुभव। परिवार, साथीभाइ तथा सबै उमेरका ग्राहकका लागि शान्त र आत्मीय वातावरणमा शाकाहारी भोजन।</p>
+  <div class="cards">
+    <div class="card"><h3>🌿 100% Vegetarian</h3><p>पूर्ण शाकाहारी भोजनलाई हाम्रो मुख्य पहिचान बनाएका छौँ।</p></div>
+    <div class="card"><h3>🪷 Sattvic</h3><p>सात्त्विक भोजन र स्वच्छताको प्राथमिकता।</p></div>
+    <div class="card"><h3>🚫 प्याज • लसुन रहित</h3><p>हाम्रो भोजनमा प्याज र लसुन प्रयोग गरिँदैन।</p></div>
+    <div class="card"><h3>✨ Signature Taste</h3><p>Seitan Chhoila लगायतका विशेष परिकार हाम्रो पहिचान बन्नेछन्।</p></div>
+  </div>
+  <div class="note"><strong>📍 Location:</strong> अहिलेका लागि <strong>ISKCON Banepa नजिक, बनेपा, काभ्रे</strong> राखिएको छ। वास्तविक स्थान निश्चित भएपछि Google Map र वेबसाइटमा तुरुन्त परिवर्तन गर्न सकिन्छ।</div>
+</section>
+
+<section id="menu">
+  <h2 class="title">Our Menu</h2>
+  <p class="sub">हालको प्रस्तावित मेनु — वास्तविक पसल खुलेपछि मूल्य/परिकार आवश्यकताअनुसार अपडेट गर्न सकिन्छ।</p>
+  <div class="menu">
+    <div class="menu-box"><h3>🥟 MOMO</h3>
+      <div class="item"><span>Veg Steam Momo</span><span class="price">रु. 160</span></div>
+      <div class="item"><span>Veg Jhol Momo</span><span class="price">रु. 180</span></div>
+      <div class="item"><span>Paneer Momo</span><span class="price">रु. 190</span></div>
+      <div class="item"><span>Seitan Momo</span><span class="price">रु. 220</span></div>
+      <div class="item"><span>Sattvam Special Momo</span><span class="price">रु. 220</span></div>
+    </div>
+    <div class="menu-box"><h3>🍕 PIZZA</h3>
+      <div class="item"><span>Veg Pizza Small</span><span class="price">रु. 300</span></div>
+      <div class="item"><span>Veg Pizza Medium</span><span class="price">रु. 450</span></div>
+      <div class="item"><span>Paneer Pizza</span><span class="price">रु. 500</span></div>
+      <div class="item"><span>Seitan Pizza</span><span class="price">रु. 550</span></div>
+      <div class="item"><span>Sattvam Special Pizza</span><span class="price">रु. 600</span></div>
+    </div>
+    <div class="menu-box"><h3>🍔 BURGER</h3>
+      <div class="item"><span>Veg Burger</span><span class="price">रु. 180</span></div>
+      <div class="item"><span>Paneer Burger</span><span class="price">रु. 220</span></div>
+      <div class="item"><span>Seitan Burger</span><span class="price">रु. 250</span></div>
+      <div class="item"><span>Sattvam Special Burger</span><span class="price">रु. 280</span></div>
+    </div>
+    <div class="menu-box"><h3>🍜 CHOWMEIN</h3>
+      <div class="item"><span>Veg Chowmein</span><span class="price">रु. 160</span></div>
+      <div class="item"><span>Paneer Chowmein</span><span class="price">रु. 190</span></div>
+      <div class="item"><span>Seitan Chowmein</span><span class="price">रु. 220</span></div>
+      <div class="item"><span>Sattvam Special Chowmein</span><span class="price">रु. 240</span></div>
+    </div>
+    <div class="menu-box"><h3>🥔 NEPALI SNACKS</h3>
+      <div class="item"><span>आलु चप</span><span class="price">रु. 100</span></div>
+      <div class="item"><span>समोसा</span><span class="price">रु. 100</span></div>
+      <div class="item"><span>Veg Pakoda</span><span class="price">रु. 140</span></div>
+      <div class="item"><span>Special Snack Platter</span><span class="price">रु. 280</span></div>
+    </div>
+    <div class="menu-box"><h3>🌱 SEITAN SPECIAL</h3>
+      <div class="item"><span>Seitan Chhoila</span><span class="price">रु. 250</span></div>
+      <div class="item"><span>Seitan Chilli</span><span class="price">रु. 250</span></div>
+      <div class="item"><span>Seitan Tikka</span><span class="price">रु. 280</span></div>
+      <div class="item"><span>Seitan Curry</span><span class="price">रु. 280</span></div>
+    </div>
+    <div class="menu-box"><h3>🍚 SATTVIC THALI</h3>
+      <div class="item"><span>Regular Sattvic Thali</span><span class="price">रु. 280</span></div>
+      <div class="item"><span>Special Sattvic Thali</span><span class="price">रु. 350</span></div>
+      <div class="item"><span>Festival Thali</span><span class="price">रु. 450</span></div>
+    </div>
+    <div class="menu-box"><h3>🌙 EKADASHI SPECIAL</h3>
+      <div class="item"><span>Sabudana Khichdi</span><span class="price">रु. 180</span></div>
+      <div class="item"><span>Sabudana Vada</span><span class="price">रु. 160</span></div>
+      <div class="item"><span>Kuttu/Singhara Special</span><span class="price">रु. 180</span></div>
+      <div class="item"><span>Fruit Bowl</span><span class="price">रु. 180</span></div>
+      <div class="item"><span>Ekadashi Special Thali</span><span class="price">रु. 350</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="title">Our Signature</h2>
+  <div class="cards">
+    <div class="card"><h3>⭐ Seitan Chhoila</h3><p>हाम्रो विशेष signature dish.</p></div>
+    <div class="card"><h3>⭐ Sattvam Special Momo</h3><p>विशेष स्वाद र presentation.</p></div>
+    <div class="card"><h3>⭐ Sattvic Thali</h3><p>सन्तुलित सात्त्विक भोजनको अनुभव.</p></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="title">Contact SATTVAM</h2>
+  <div class="contact-grid">
+    <div class="info"><h3>📞 Phone</h3><p><a href="tel:9841108163">9841108163</a></p></div>
+    <div class="info"><h3>✉️ Email</h3><p><a href="mailto:binodsatyal4@gmail.com">binodsatyal4@gmail.com</a></p></div>
+    <div class="info"><h3>📍 Location</h3><p>ISKCON Banepa नजिक<br>बनेपा, काभ्रे, नेपाल</p></div>
+  </div>
+  <p style="text-align:center;margin-top:28px">वास्तविक location, opening hours र Google Map link पछि अपडेट गर्न सकिन्छ।</p>
+</section>
+
+<footer>
+  © 2026 SATTVAM Restaurant • 100% Vegetarian • Sattvic • No Onion • No Garlic<br>
+  Pure Food • Pure Mind • Pure Life
+</footer>
+</body>
+</html>
